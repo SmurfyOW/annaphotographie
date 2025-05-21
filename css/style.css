@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+}
+
+/* Typographie */
+h1{
+    font-size: 32px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+h4{
+    font-size: 18px;
+}
+
+p{
+    font-size: 16px;
+}
+
+h1, h2, h3{
+    font-family: "Libre Baskerville", serif;
+}
+
+
+/* Boutons */
+section a{
+    background-color: #F9E6E0;
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    padding: 0.6rem 0;
+
+    text-decoration: none;
+    color: black;
+    font-family: "Libre Baskerville", serif;
+
+    transition: 0.3s;
+}
+
+section a:hover{
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.411);
+}
+
+ul li a{
+    color: black;
+    text-decoration: none;
+
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+}
+
+ul li{
+    transition: 0.3s;
+}
+
+ul li:hover{
+    transform: scale(1.125);
+}
+
+
+/* Image */
+img{
+    width: 10%;
+}
+
+/* Commandes supplémentaires */
+
+.text-center{
+    text-align: center;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+
+
+/* /////////////////////// */
+/* /////////////////////// */
+/* /////////////////////// */
+
+/* Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    align-items: center;
+    align-content: center;
+}
+
+    /* Header > Navbar */
+    header nav{
+        width: 45%;
+    }
+
+        /* Nav bar > Ul */
+        header ul{
+            display: flex;
+            justify-content: space-between;
+        }
+
+            /* Ul > Li */
+            header nav ul li{
+                list-style: none;
+            }
+
+
+    header img{
+        width: 10%;
+    }
+
+
+/* Section Présentation */
+#présentation{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80vw;
+    min-height: 80vh;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 20vh
+}
+
+    #présentation div{
+        width: 60%;
+        height: 40vh;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+        padding: 3rem 4rem;
+        box-shadow: 3px 2px 4px 3px rgba(0, 0, 0, 0.151);
+        background-color: white;
+
+        position: absolute;
+        right: 120px;
+    }
+
+        #présentation div a{
+            width: 25%;
+        }
+
+
+
+    #présentation img{
+        width: 35%;
+        height: 80vh;
+
+        position: relative;
+    }
+
+
+    /* Section à propos */
+    #about{
+        display: flex;
+        width: 80vw;
+        justify-content: space-between;
+        margin: 0 auto;
+        align-items: center;
+        margin-bottom: 20vh;
+    }
+    
+        #about div{
+            width: 50%;
+        }
+
+        
+        #about img{
+            width: 35%;
+        }
+
+
+
+    /* Section Services  */
+
+    #services{
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 150px;
+    }
+
+        #services h1{
+            margin-bottom: 100px;
+        }
+
+    
+        #services article img{
+            width: 204px;
+            height: 360px;
+            object-fit: cover;
+        }
+
+        #services .left{
+            display: flex;
+            justify-content: space-evenly;
+            width: 70%;
+            margin-bottom: 10vh;
+        }
+
+            #services .left div{
+                width: 100%;
+                margin-left: 3vw;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+            }
+
+
+        #services .right{
+            display: flex;
+            justify-content: space-evenly;
+            width: 70%;
+            flex-direction: row-reverse;
+            float: right;
+            margin-bottom: 10vh;
+        }
+
+            #services .right div{
+                text-align: right;
+                margin-right: 3vw;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+            }
+
+
+        #services a{
+            margin: 0 auto;
+            width: 20%;
+        }
+
+
+
+
+    /* Section Pourquoi Anna */
+    #pourquoi{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        width: 100vw;
+        align-content: center;
+        align-items: center;
+    }
+
+        #pourquoi .row-1, #pourquoi .row-2{
+            display: flex;  
+            justify-content: center;
+        }
+
+            #pourquoi article{
+                width: 25%;
+                background-color: #F9E6E0;
+                margin: 2rem;
+                padding: 2rem;
+            }
+
+                #pourquoi i{
+                    background-color: rgb(182, 13, 13);
+                    padding: 15px;
+                    border-radius: 50px;
+                    margin-bottom: 20px;
+                }
+
+
+
+
+
