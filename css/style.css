@@ -763,6 +763,7 @@ header{
         
             #contact form .container{
                 flex-direction: column;
+                width: 100%;
             }
 
             #contact form input.btn{
