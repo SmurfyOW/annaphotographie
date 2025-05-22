@@ -395,6 +395,20 @@ header{
                 }
 
 
+            #contact form .check{
+                display: flex;
+                margin-top: 1rem;
+            }
+
+                #contact form .check span{
+                    width: 80%;
+                }
+
+
+                #contact form .check input{
+                    margin-right: 10px;
+                }
+
             #contact form h1{
                 margin-bottom: 20px;
             }
@@ -493,7 +507,7 @@ header{
 
 
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 200px) {
         /* Typographie */
     h1{
         font-size: 24px;
@@ -546,6 +560,12 @@ header{
 
         header nav{
             width: 100%;
+        }
+        
+        header nav ul{
+            flex-direction: column;
+            align-items: center;
+            height: 200px;
             justify-content: space-between;
         }
 
@@ -572,6 +592,8 @@ header{
             width: 90%;
             height: 60vh;
             margin-bottom: 3rem;
+
+            object-fit: cover;
         }
 
         #présentation div{
@@ -625,6 +647,7 @@ header{
         margin: 0 auto;
     }
 
+    
     #services .right{
         flex-direction: column-reverse;
         text-align: center;
@@ -632,29 +655,97 @@ header{
         margin: 0 auto;
         float: none;
     }
+    
+        #services .right p, #services .right h2, #services .left h2, #services .left p{
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+    
+    
+    /* Section Pourquoi */
+    #pourquoi{
+        margin-bottom: 5rem;
+    }
+
+        #pourquoi h1{
+            margin-bottom: 2rem;
+        }
+
+        #pourquoi .row-1, #pourquoi .row-2{
+            flex-direction: column;
+            width: 100%;
+            justify-content: space-between;
+        }
+
+            #pourquoi article{
+                width: 80%;
+                margin: 0 auto;
+                margin-bottom: 2rem;
+            }
+
+
+    #contact{
+        flex-direction: column;
+        height: 100%;
+        margin-bottom: 5rem;
+    }
+
+        #contact .container{
+            display: initial;
+            width: 100%;
+            margin-bottom: 40px; 
+        }
 
         
+        #contact form{
+            position: initial;
+            width: 100%;
+        }
+        
+            #contact form .container{
+                flex-direction: column;
+            }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-            #contact{
-                display: none;
+            #contact form input.btn{
+                width: 100%;
             }
 
 
-            #pourquoi{
-                display: none;
+    /* Footer */
+    footer{
+        flex-direction: column;
+    }
+
+        footer div{
+            margin-bottom: 3rem;
+        }
+
+        footer .droite{
+            text-align: center;
+            align-items: center;
+            width: 100%;
+        }
+
+            footer .droite input{
+                width: 50%;
             }
+
+            footer .droite input.btn{
+                width: 50%;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
                 
