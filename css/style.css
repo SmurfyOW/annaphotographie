@@ -506,8 +506,67 @@ header{
                     }
 
 
+@media screen and (min-width: 1024px){
+    /* header */
+    header nav{
+        width: 70%;
+    }
 
-@media screen and (min-width: 200px) {
+        header nav ul{
+            width: 100%;
+        }
+
+        
+    /* Section Présentation */
+    #présentation{
+        width: 90%;
+    }
+
+    #présentation div{
+        right: 20px;
+        height: 50%;
+    }
+
+    #présentation img{
+        width: 50%;
+        object-fit: cover;
+    }
+
+
+    /* Section services */
+    #services{
+        width: 90%;
+    }
+
+
+    /* section pourquoi */
+    #pourquoi{
+        margin-bottom: 10rem;
+    }
+
+
+
+    /* Section Contact */
+    #contact{
+        width: 90%;
+        margin-bottom: 5rem;
+    }
+
+        #contact .container{
+            height: 100%;
+        }
+
+        #contact form{
+            width: 50%;
+            height: 80%;
+            right: 50px;
+        }
+}
+
+
+
+
+@media screen and (max-width: 1023px) {
         /* Typographie */
     h1{
         font-size: 24px;
