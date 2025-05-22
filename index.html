@@ -193,15 +193,15 @@
         </section>
 
         <section id="contact">
-            <div class="Container">
+            <div class="container">
 
                 <div class="texte">
                     <h1>Une question ? Un projet ? Parlons-en !</h1>
                     <p>Que vous prépariez le plus beau jour de votre vie, que vous souhaitiez offrir un moment complice à votre famille, ou que vous ayez simplement envie d’un portrait qui vous ressemble, chaque histoire mérite d’être racontée avec attention et sensibilité. <br><br>
                         
-                        Je suis disponible pour répondre à toutes vos questions, vous conseiller, et imaginer ensemble une séance qui vous ressemble. Il vous suffit de remplir le formulaire ci-dessous ou de m’écrire directement. Que vous ayez une idée précise ou juste une envie à partager, je serai ravie d’en discuter avec vous. <br><br>
+                    Je suis disponible pour répondre à toutes vos questions, vous conseiller, et imaginer ensemble une séance qui vous ressemble. Il vous suffit de remplir le formulaire ci-dessous ou de m’écrire directement. Que vous ayez une idée précise ou juste une envie à partager, je serai ravie d’en discuter avec vous. <br><br>
                         
-                        Chaque rencontre est unique, chaque projet est un nouveau chapitre. Le vôtre commence peut-être ici — et j’ai hâte de le découvrir.</p>
+                    Chaque rencontre est unique, chaque projet est un nouveau chapitre. Le vôtre commence peut-être ici — et j’ai hâte de le découvrir.</p>
                 </div>
                     
                 <div class="infos">
@@ -226,25 +226,29 @@
             <form>
                 <h1>Contact</h1>
 
-                <div class="flex-column">
-                    <label for="name">Nom</label>
-                    <input type="text" placeholder="Nom..">
-                </div>
-
-                <div class="flex-column">
-                    <label for="Prénom">Prénom</label>
-                    <input type="text" placeholder="Prénom..">
+                <div class="container">
+                    <div class="flex-column">
+                        <label for="name">Nom</label>
+                        <input type="text" placeholder="Nom..">
+                    </div>
+                    
+                    <div class="flex-column">
+                        <label for="Prénom">Prénom</label>
+                        <input type="text" placeholder="Prénom..">
+                    </div>
                 </div>
                 
 
-                <div class="flex-column">
-                    <label for="mail">E-mail</label>
-                    <input type="mail" placeholder="email@gmail.com">
-                </div>
-
-                <div class="flex-column">
-                    <label for="sujet">Sujet</label>
-                    <input type="text" placeholder="Sujet..">
+                <div class="container">
+                    <div class="flex-column">
+                        <label for="mail">E-mail</label>
+                        <input type="mail" placeholder="email@gmail.com">
+                    </div>
+                    
+                    <div class="flex-column">
+                        <label for="sujet">Sujet</label>
+                        <input type="text" placeholder="Sujet..">
+                    </div>
                 </div>
 
                 <div class="flex-column">
@@ -252,7 +256,7 @@
                     <textarea placeholder="Votre message.."></textarea>
                 </div>
 
-                <input type="button" value="Envoyer">
+                <input type="button" value="Envoyer" class="btn">
             </form>
         </section>
 
@@ -264,8 +268,8 @@
 
     <footer>
         <div>
-            <nav>
-                <ul class="flex-column">
+            <nav class="flex-column">
+                <ul>
                     <li><a href="#présentation">Présentation</a></li>
                     <li><a href="#about">À propos</a></li>
                     <li><a href="#services">Services</a></li>
@@ -282,7 +286,7 @@
             </nav>
         </div>
 
-        <div class="flex-column">
+        <div class="centre flex-column">
             <img src="img/Logo.png" alt="Logo Anna Photographie">
             <p>Copyright 2025 - Anna Photographie</p>
             <div>
@@ -292,11 +296,11 @@
             </div>
         </div>
 
-        <div class="flex-column">
+        <div class="droite flex-column">
             <h3>Newsletter</h3>
             <h4>Abonnez-vous à la Newsletter pour les dernières actualités</h4>
             <input type="mail" placeholder="email@gmail.com">
-            <input type="button" value="S'inscrire">
+            <input type="button" value="S'inscrire" class="btn">
         </div>
     </footer>
 
